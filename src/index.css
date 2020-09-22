@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://red-beach-06d409e03.azurestaticapps.net/static/media/Background-admin-filter@2x.578f727a.png);
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Poppins, sans-serif;
+  background-position: 50% center;
+}
+
+.overflow-unset {
+  overflow: unset !important;
+  max-height: 100% !important;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+#root,
+body {
+  height: 100%;
+  overflow-x: hidden;
+}

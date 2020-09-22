@@ -1,0 +1,22 @@
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #262a3c;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #494b5e;
+}
+@media (min-width: 1200px) {
+  .col-xl-2 {
+    flex: 0 0 20%;
+    max-width: 20.666667%;
+  }
+}
